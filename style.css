@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.bg-top {
+  background-image: url(./images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 150%;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-bottom {
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position-x: -10%;
+  background-position-y: -70%;
+  width: 100%;
+  height: 100%;
+  z-index: 1111;
+}
